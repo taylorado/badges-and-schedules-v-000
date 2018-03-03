@@ -13,3 +13,14 @@ def batch_badge_creator(names)
   end
   return badgeArray
 end
+
+def assign_rooms(names)
+  badgeArray = []
+  index = 0
+  names.each do
+    badgeArray.push("Hello #{names[index]}! You'll be assigned to room #{index+1}!"))
+    index +=1
+  end
+  return badgeArray
+end
+  
