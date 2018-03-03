@@ -31,5 +31,5 @@ def printer(names)
 #    puts assign_rooms(names)
 #    index +=1
 #  end
-puts badge_maker(names)
+puts badge_maker(names[0])
 end
