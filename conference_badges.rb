@@ -30,7 +30,7 @@ def printer(names)
       puts x
     end
   fromAssign = assign_rooms(names)
-    result.each do |x|
+    fromAssign.each do |x|
       puts x
     end
   end
