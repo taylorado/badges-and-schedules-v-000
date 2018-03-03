@@ -23,4 +23,3 @@ def assign_rooms(names)
   end
   return badgeArray
 end
-  
