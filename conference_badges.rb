@@ -29,8 +29,7 @@ def printer(names)
   fromBatch.each do |x|
       puts x
     end
-  fromAssign = assign_rooms(names)
-    fromAssign.each do |x|
+  assign_rooms(names).each do |x|
       puts x
     end
   end
