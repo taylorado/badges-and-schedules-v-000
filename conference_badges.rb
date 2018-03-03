@@ -5,5 +5,12 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names.each return badge_maker()
+  badgeArray = []
+  index = 0
+  names.each do 
+    names[index] >> badgeArray
+    index +=1
+  end
+  
 end
+
