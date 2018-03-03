@@ -25,10 +25,12 @@ def assign_rooms(names)
 end
 
 def printer(names)
-#  index = 0
-#  names.each do
-    puts batch_badge_creator(names)
-    puts assign_rooms(names)
-#    index +=1
-#  end
-end
+  fromBatch = batch_badge_creator(names)
+  fromBatch.each do |x|
+      puts x
+    end
+  fromAssign = assign_rooms(names)
+    result.each do |x|
+      puts x
+    end
+  end
