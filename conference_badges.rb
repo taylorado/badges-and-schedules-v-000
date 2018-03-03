@@ -11,6 +11,6 @@ def batch_badge_creator(names)
     names[index] >> badgeArray
     index +=1
   end
-  
+  return badgeArray
 end
 
