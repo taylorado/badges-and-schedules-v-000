@@ -23,3 +23,7 @@ def assign_rooms(names)
   end
   return badgeArray
 end
+
+def printer(names)
+  puts assign_rooms(names)
+end
