@@ -7,10 +7,9 @@ end
 def batch_badge_creator(names)
   badgeArray = []
   index = 0
-  names.each do 
+  names.each do
     names[index] >> badgeArray
     index +=1
   end
   return badgeArray
 end
-
